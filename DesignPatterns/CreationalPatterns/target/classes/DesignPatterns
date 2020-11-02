@@ -1,0 +1,29 @@
+Design Patterns:
+-> Solutions to the recurring problems
+-> guidelines on how to tackle problems
+
+1. Understand -> real life problem
+2. Implement -> refer to the implementation of solution to the problem
+3. Apply -> Discuss where pattern can be applied
+
+
+Note:
+Use the Design Patterns in the correct place in correct manner, they can prove to be a savior; or else they can prove to be a horrible mess of code.
+
+Types:
+1. Creational
+-> Focused towards how to instantiate an object or group of related objects
+   a. Singleton = Introduces the global state to the application
+      -> Objects reside in Heap memory. We can create many objects as the physical space in memory will allow.
+      -> But, we have situations where one instance should be created.
+      -> ex: Playing audio files (one audio output and one song can be played at a time).
+      -> Makes the code tightly coupled and mocking the Singleton could also be difficult.
+      -> Implemented by Lazy and Eager initialization techniques.
+
+   b. Prototype = Cloning an existing object
+      -> During run-time, copy an object which already exists in memory (complex objects).
+      -> ex: Spreadsheets (split a cell : copy all cell attributes i.e., content, borders, format etc.,)
+      -> Instead of trouble of having the object created from scratch
+   c.
+2. Structural
+3. Behavioral

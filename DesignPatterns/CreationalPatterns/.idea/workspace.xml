@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1abbbfb1-2365-47a4-8a95-4bbc690d6737" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jiwwmGFk9uOS9x96ja7aV8dRLC" />
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.PrototypeTest.testPrototype">
+    <configuration name="PrototypeTest.testPrototype" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CreationalPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learnings.prototype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.learnings.prototype" />
+      <option name="MAIN_CLASS_NAME" value="com.learnings.prototype.PrototypeTest" />
+      <option name="METHOD_NAME" value="testPrototype" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CreationalPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learnings.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.learnings.singleton" />
+      <option name="MAIN_CLASS_NAME" value="com.learnings.singleton.SingletonTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonTest.testSynchronisedSingleton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CreationalPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learnings.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.learnings.singleton" />
+      <option name="MAIN_CLASS_NAME" value="com.learnings.singleton.SingletonTest" />
+      <option name="METHOD_NAME" value="testSynchronisedSingleton" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonTest.testSynchronisedSingleton2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CreationalPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learnings.singleton.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.learnings.singleton" />
+      <option name="MAIN_CLASS_NAME" value="com.learnings.singleton.SingletonTest" />
+      <option name="METHOD_NAME" value="testSynchronisedSingleton2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PrototypeTest.testPrototype" />
+        <item itemvalue="JUnit.SingletonTest" />
+        <item itemvalue="JUnit.SingletonTest.testSynchronisedSingleton2" />
+        <item itemvalue="JUnit.SingletonTest.testSynchronisedSingleton" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1abbbfb1-2365-47a4-8a95-4bbc690d6737" name="Default Changelist" comment="" />
+      <created>1604300460216</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604300460216</updated>
+    </task>
+    <servers />
+  </component>
+</project>
