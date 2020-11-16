@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1abbbfb1-2365-47a4-8a95-4bbc690d6737" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learnings/builder/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learnings/builder/ConcreteBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learnings/builder/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learnings/builder/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/learnings/builder/BuilderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learnings/factorymethod/ConcreteCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learnings/factorymethod/ConcreteProductA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learnings/factorymethod/ConcreteProductB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learnings/factorymethod/Creator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learnings/factorymethod/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/learnings/factorymethod/FatoryMethodTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/DesignPatterns" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/DesignPatterns" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DesignPatterns" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPatterns" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learnings/prototype/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learnings/prototype/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learnings/prototype/ConcretePrototype.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learnings/prototype/ConcretePrototype.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learnings/prototype/Prototype.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learnings/prototype/Prototype.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +52,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BuilderTest.testBuilder">
+  <component name="RunManager" selected="JUnit.FactoryMethodTest.testFactoryMethod">
     <configuration name="BuilderTest.testBuilder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CreationalPatterns" />
       <extension name="coverage">
@@ -61,6 +64,22 @@
       <option name="PACKAGE_NAME" value="com.learnings.builder" />
       <option name="MAIN_CLASS_NAME" value="com.learnings.builder.BuilderTest" />
       <option name="METHOD_NAME" value="testBuilder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FactoryMethodTest.testFactoryMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CreationalPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learnings.factorymethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.learnings.factorymethod" />
+      <option name="MAIN_CLASS_NAME" value="com.learnings.factorymethod.FactoryMethodTest" />
+      <option name="METHOD_NAME" value="testFactoryMethod" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,22 +116,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonTest.testSynchronisedSingleton" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CreationalPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learnings.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.learnings.singleton" />
-      <option name="MAIN_CLASS_NAME" value="com.learnings.singleton.SingletonTest" />
-      <option name="METHOD_NAME" value="testSynchronisedSingleton" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SingletonTest.testSynchronisedSingleton2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CreationalPatterns" />
       <extension name="coverage">
@@ -131,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FactoryMethodTest.testFactoryMethod" />
         <item itemvalue="JUnit.BuilderTest.testBuilder" />
         <item itemvalue="JUnit.PrototypeTest.testPrototype" />
         <item itemvalue="JUnit.SingletonTest" />
         <item itemvalue="JUnit.SingletonTest.testSynchronisedSingleton2" />
-        <item itemvalue="JUnit.SingletonTest.testSynchronisedSingleton" />
       </list>
     </recent_temporary>
   </component>
@@ -150,6 +153,14 @@
       <option name="presentableId" value="Default" />
       <updated>1604300460216</updated>
     </task>
+    <task id="LOCAL-00001" summary="Builder pattern code commit">
+      <created>1605504345854</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605504345854</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,5 +175,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Builder pattern code commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Builder pattern code commit" />
   </component>
 </project>

@@ -29,6 +29,8 @@ Types:
       -> Separates construction of a complex object from its representation.
       -> Same construction can create objects with different representations.
       -> ex: PC shops - combination of various parts but with difference in variation of parts being used.
+
+   d. Factory method = interface for creating objects and let subclass decide which to instantiate
       ->
 2. Structural
 3. Behavioral
