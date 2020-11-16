@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1abbbfb1-2365-47a4-8a95-4bbc690d6737" name="Default Changelist" comment="" />
+    <list default="true" id="1abbbfb1-2365-47a4-8a95-4bbc690d6737" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learnings/builder/Builder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learnings/builder/ConcreteBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learnings/builder/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learnings/builder/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/learnings/builder/BuilderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/DesignPatterns" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/DesignPatterns" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesignPatterns" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPatterns" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +25,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -24,6 +36,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1jiwwmGFk9uOS9x96ja7aV8dRLC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -36,7 +49,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PrototypeTest.testPrototype">
+  <component name="RunManager" selected="JUnit.BuilderTest.testBuilder">
+    <configuration name="BuilderTest.testBuilder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CreationalPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learnings.builder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.learnings.builder" />
+      <option name="MAIN_CLASS_NAME" value="com.learnings.builder.BuilderTest" />
+      <option name="METHOD_NAME" value="testBuilder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PrototypeTest.testPrototype" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CreationalPatterns" />
       <extension name="coverage">
@@ -102,6 +131,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BuilderTest.testBuilder" />
         <item itemvalue="JUnit.PrototypeTest.testPrototype" />
         <item itemvalue="JUnit.SingletonTest" />
         <item itemvalue="JUnit.SingletonTest.testSynchronisedSingleton2" />
@@ -121,5 +151,18 @@
       <updated>1604300460216</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

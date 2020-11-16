@@ -24,6 +24,11 @@ Types:
       -> During run-time, copy an object which already exists in memory (complex objects).
       -> ex: Spreadsheets (split a cell : copy all cell attributes i.e., content, borders, format etc.,)
       -> Instead of trouble of having the object created from scratch
-   c.
+
+   c. Builder = build complex objects from simple ones
+      -> Separates construction of a complex object from its representation.
+      -> Same construction can create objects with different representations.
+      -> ex: PC shops - combination of various parts but with difference in variation of parts being used.
+      ->
 2. Structural
 3. Behavioral
