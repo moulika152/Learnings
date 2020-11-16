@@ -11,7 +11,7 @@ public class FactoryMethodTest {
 		Product productB = factory.factoryMethod("B");
 
 		Assert.assertNull(factory.factoryMethod(""));
-		Assert.assertEquals("com.learnings.factorymethod.ConcreteProductA", productA.getClass().getName());
-		Assert.assertEquals("com.learnings.factorymethod.ConcreteProductB", productB.getClass().getName());
+		Assert.assertEquals(ConcreteProductA.class, productA.getClass());
+		Assert.assertEquals(ConcreteProductB.class, productB.getClass());
 	}
 }

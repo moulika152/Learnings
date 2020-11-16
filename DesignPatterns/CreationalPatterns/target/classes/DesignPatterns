@@ -31,6 +31,14 @@ Types:
       -> ex: PC shops - combination of various parts but with difference in variation of parts being used.
 
    d. Factory method = interface for creating objects and let subclass decide which to instantiate
-      ->
+      -> ex: Plasticine is used as a toy for children. Plasticine is injected into predefined molds.
+             The class of end product (ball, toy, sculpture, cake) is determined by the mold.
+
+   e. Abstract Factory = interface for creating the families of related objects without specifying the concrete classes
+      -> ex: framework for GUI environment. Factory method pattern for Windows (Window, Scrollbar etc.,). Abstract Factory to extend for Linux etc.,
+      -> The Abstract Factory is one level higher in abstraction than the Factory Method.
+      -> The Factory Method abstracts the way objects are created,
+          while the Abstract Factory also abstracts the way factories are created, which in turn abstracts the way objects are created.
+      -> ex: Cards stamping equipment (Italian, French, English etc.,)
 2. Structural
 3. Behavioral

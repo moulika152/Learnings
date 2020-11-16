@@ -2,17 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1abbbfb1-2365-47a4-8a95-4bbc690d6737" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learnings/factorymethod/ConcreteCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learnings/factorymethod/ConcreteProductA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learnings/factorymethod/ConcreteProductB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learnings/factorymethod/Creator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learnings/factorymethod/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/learnings/factorymethod/FatoryMethodTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learnings/abstractfactory/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learnings/abstractfactory/AbstractProductA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learnings/abstractfactory/AbstractProductB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learnings/abstractfactory/ConcreteFactory1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learnings/abstractfactory/ConcreteFactory2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learnings/abstractfactory/ProductA1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learnings/abstractfactory/ProductA2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learnings/abstractfactory/ProductB1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/learnings/abstractfactory/ProductB2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/learnings/abstractfactory/AbstractFactoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/DesignPatterns" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/DesignPatterns" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learnings/prototype/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learnings/prototype/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learnings/prototype/ConcretePrototype.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learnings/prototype/ConcretePrototype.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learnings/prototype/Prototype.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learnings/prototype/Prototype.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/learnings/factorymethod/FactoryMethodTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/learnings/factorymethod/FactoryMethodTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DesignPatterns" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DesignPatterns" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +56,21 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.FactoryMethodTest.testFactoryMethod">
+    <configuration name="AbstractFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CreationalPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learnings.abstractfactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.learnings.abstractfactory" />
+      <option name="MAIN_CLASS_NAME" value="com.learnings.abstractfactory.AbstractFactoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BuilderTest.testBuilder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CreationalPatterns" />
       <extension name="coverage">
@@ -116,29 +134,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonTest.testSynchronisedSingleton2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CreationalPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.learnings.singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.learnings.singleton" />
-      <option name="MAIN_CLASS_NAME" value="com.learnings.singleton.SingletonTest" />
-      <option name="METHOD_NAME" value="testSynchronisedSingleton2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.FactoryMethodTest.testFactoryMethod" />
+        <item itemvalue="JUnit.AbstractFactoryTest" />
         <item itemvalue="JUnit.BuilderTest.testBuilder" />
         <item itemvalue="JUnit.PrototypeTest.testPrototype" />
         <item itemvalue="JUnit.SingletonTest" />
-        <item itemvalue="JUnit.SingletonTest.testSynchronisedSingleton2" />
       </list>
     </recent_temporary>
   </component>
@@ -160,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605504345854</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Factory Method pattern commit">
+      <created>1605506070717</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605506070717</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,6 +187,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Builder pattern code commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Builder pattern code commit" />
+    <MESSAGE value="Factory Method pattern commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Factory Method pattern commit" />
   </component>
 </project>
